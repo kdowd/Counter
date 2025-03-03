@@ -12,6 +12,8 @@ int main()
     // Instantiate class
     Counter c(10);
 
+    c.setCounter(99);
+
     c.increment();
     c.increment();
     c.decrement();

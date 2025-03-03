@@ -18,4 +18,6 @@ public:
     // getter
     int getCounter();
 
+    void setCounter(int);
+
 };

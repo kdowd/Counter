@@ -3,7 +3,8 @@
 using namespace std;
 
 Counter::Counter(int n) {
-    counter = n;
+    setCounter(n);
+   
     cout << "counter = " << counter << endl;
 }
 
@@ -20,4 +21,9 @@ void Counter::decrement() {
 
 int Counter::getCounter() {
     return counter;
+}
+
+void Counter::setCounter(int n) {
+
+    counter = n;
 }
